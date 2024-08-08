@@ -74,7 +74,7 @@ function CategoryComponent() {
           <li key={category.id}>
             {category.name} 
             <button onClick={() => handleUpdate(category.id)}>Update</button>
-            <button onClick={() => handleDelete(category.id)}>Delete</button>
+            {/* <button onClick={() => handleDelete(category.id)}>Delete</button> */}
           </li>
         ))}
       </ul>
